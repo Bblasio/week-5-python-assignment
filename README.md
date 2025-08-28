@@ -2,20 +2,6 @@
 Welcome to my Python Object-Oriented Programming (OOP) assignment showcase 
 
 ---
-
-## Table of Contents
-1. [Overview](#-overview)  
-2. [Objectives](#-objectives)  
-3. [Project Structure](#-project-structure)  
-4. [Activity 1: Smartphone](#-activity-1-smartphone-class)  
-5. [Activity 2: Vehicle Polymorphism](#-activity-2-vehicle-polymorphism)  
-6. [Technologies](#-technologies)  
-7. [Concepts Covered](#-concepts-covered)  
-8. [How to Run](#-how-to-run)  
-9. [License](#-license)  
-
----
-
 ## Overview  
 This assignment focuses on applying the principles of Object-Oriented Programming (OOP) in Python. The goal is to model real-world entities using classes, attributes, and methods while demonstrating the four main pillars of OOP: encapsulation, inheritance, polymorphism, and abstraction.
 The assignment is divided into two activities:
@@ -70,6 +56,7 @@ smartphone.py
   - `GamingPhone` extends `Smartphone` and adds `play_game()`  
 
 ### Example Code
+```
 # Parent Class
 class Smartphone:
     def __init__(self, brand, model, storage):
@@ -110,7 +97,7 @@ phone1.call("+254712345678")
 gaming_phone = GamingPhone("Asus", "ROG Phone 6", 256, "Adreno 730")
 gaming_phone.info()
 gaming_phone.play_game("eFOOTBALL")
-
+```
  # Expected Output
 Brand: Samsung, Model: Galaxy S25 Ultra, Storage: 128GB
 Samsung Galaxy S25 Ultra is calling +254712345678...
@@ -157,7 +144,8 @@ vehicles = [Car(), Plane(), Boat()]
 
 for v in vehicles:
     v.move()  # Polymorphic behavior
-
-
-
-
+```
+# Expected Output
+ Driving on the road...
+ Flying in the sky...
+ Sailing on water...
