@@ -157,8 +157,7 @@ vehicles = [Car(), Plane(), Boat()]
 
 for v in vehicles:
     v.move()  # Polymorphic behavior
-Driving on the road...
-Flying in the sky...
-Sailing on water...
+
+
 
 
